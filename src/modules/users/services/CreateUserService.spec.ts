@@ -36,8 +36,6 @@ describe('Create user', () => {
       password: 'teste',
     });
 
-    console.log(response.body);
-
     expect(response.status).toEqual(200);
     expect(response.body).toHaveProperty('id');
   });
