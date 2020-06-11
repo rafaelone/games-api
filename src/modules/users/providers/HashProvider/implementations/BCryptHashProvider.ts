@@ -1,4 +1,3 @@
-import { Promise } from 'express';
 import { hash, compare } from 'bcryptjs';
 import IHashProvider from '../models/IHashProvider';
 

@@ -4,3 +4,4 @@ public
 dist
 
 ormconfig.json
+coverage
